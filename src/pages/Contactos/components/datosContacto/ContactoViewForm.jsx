@@ -30,15 +30,6 @@ export const useContactoViewForm = (props)=>
     updatedAt: "",
   });
 
-  const {
-    firstName,
-    lastName,
-    email,
-    phone,
-    createdAt,
-    updatedAt,
-  } = datosContacto;
-
   useEffect(() => {
     setLoading(true);
     const fetchDatosContacto = async () => {

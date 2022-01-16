@@ -29,13 +29,6 @@ export const useContactoCreateForm = ()=>{
     phone: "",
   });
 
-  const {
-    firstName,
-    lastName,
-    email,
-    phone,
-  } = datosContacto;
-
   const handleChangeInput = (e) => {
     setDatosContacto({
       ...datosContacto,
